@@ -19,6 +19,7 @@ void setup() {
   frameRate(360);
   size(800, 800);
   background(bgcol);
+  fill(col);
   noStroke();
 
   center = new PVector(width/2, height/2);
@@ -62,7 +63,6 @@ void draw() {
     float hx = center.x + ((hRad[vc]*radius) * cos(hAng[vc]));
     float hy = center.y + ((hRad[vc]*radius) * sin(hAng[vc]));
 
-    fill(col);
     ellipse(hx, hy, thickness, thickness);
 
     radius += addRadius;
