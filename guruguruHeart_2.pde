@@ -12,8 +12,8 @@ int vc2 = 0;
 int rotNum;
 
 //色
-color bgcol = #92A8D1; //背景色
-color col = #F7CAC9; //線の色
+color bgcol = #93acd9; //背景色
+color col = #ffcbcb; //線の色
 
 void setup() {
   frameRate(360);
